@@ -4,7 +4,8 @@
   "description": "simple tutorial for node",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+     "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"	
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "webpack": "^1.12.2"
   },
   "dependencies": {
-    "webpack": "^1.12.2"
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
   }
 }
