@@ -1,3 +1,4 @@
+require('./main.css');
 import React from 'react';
 import Hello from './component.jsx';
 
